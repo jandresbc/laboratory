@@ -1,3 +1,14 @@
+# Instrucciones para instalación
+1. Clonar el repositorio desde el siguiente link: 
+git clone https://github.com/jandresbc/laboratory.git
+
+2. Instalar los modulos: npm install
+
+3. Iniciar el proyecto con npm:  npm start.
+
+4. Configurar el proyecto en la siguiente ruta: src/Config/Config.js El usuario y contraseña debe crearse en la base de datos user en el proyeto api-test
+
+Nota: Las versiones usadas para su desarrollo son: Nodejs versión 18.12.1, React version 18.2.0
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
