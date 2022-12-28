@@ -1,5 +1,4 @@
 import '../App.css';
-import Menu from '../Components/Navbar'
 import React, {useState, useEffect } from "react"
 import { settings } from '../Config/Config'
 

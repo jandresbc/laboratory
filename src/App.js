@@ -10,13 +10,7 @@ import {
   Routes, Navigate
 } from "react-router-dom";
 
-class App extends React.Component{
-
-  constructor(props){
-    super(props)
-  }
-
-  render(){
+function App(){
     return (
       <div className="App">
         <header>
@@ -35,8 +29,6 @@ class App extends React.Component{
         </header>
       </div>
     );
-  }
-  
 }
 
 export default App;
