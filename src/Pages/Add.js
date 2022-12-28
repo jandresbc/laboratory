@@ -5,7 +5,7 @@ import { settings } from '../Config/Config'
 export default function Add() {
   useEffect(() => {
     authentication()
-  }, [])
+  })
   const [ state, setState ] = useState({
     name:"",
     identification:"",

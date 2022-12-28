@@ -5,7 +5,7 @@ import { settings } from '../Config/Config'
 export default function Consult() {
   useEffect(() => {
     authentication()
-  }, [])
+  })
 
   const [ state, setState ] = useState({
     identification:0,
